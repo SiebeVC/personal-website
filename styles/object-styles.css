@@ -158,3 +158,59 @@ nav .divlink{
         border-radius: 15px;
     }
 }
+
+/* Project*/
+.project{
+    margin: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    border:1px solid black;
+    box-shadow: gray 2px 2px 10px;
+
+    min-height: 300px;
+}
+
+.project .text-container{
+    width: 60%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-bottom: 20px;
+}
+
+
+
+.project img{
+    max-width: 100%;
+}
+
+.project table{
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .project{
+        margin:10px;
+        flex-direction: column-reverse;
+        padding: 5px;
+    }
+
+    .project .text-container{
+        width: 90%;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    
+        padding-bottom: 20px;
+    }
+
+    .project .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -10,14 +10,21 @@
     <link href="styles/object-styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60c601cf9d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section>
         <h1>Siebe Van Campenhout</h1>
     </section>
     <nav>
-        <a title="personalinfo" class="ablank" href="#personalinfo"><div class="divlink"><i class="fa-solid fa-info"></i></div></a>
-        <a title="timeline" class="ablank" href="#timeline"><div class="divlink"><i class="fa-solid fa-timeline"></i></div></a>
-        <a title="projects" class="ablank" href="#projects"><div class="divlink"><i class="fa-solid fa-briefcase"></i></div></a>
+        <a title="personalinfo" class="ablank" href="#personalinfo">
+            <div class="divlink"><i class="fa-solid fa-info"></i></div>
+        </a>
+        <a title="timeline" class="ablank" href="#timeline">
+            <div class="divlink"><i class="fa-solid fa-timeline"></i></div>
+        </a>
+        <a title="projects" class="ablank" href="#projects">
+            <div class="divlink"><i class="fa-solid fa-briefcase"></i></div>
+        </a>
     </nav>
     <section class="information">
         <h2 id="personalinfo">Persoonlijke Informatie</h2>
@@ -95,7 +102,8 @@
             <div class="card left">
                 <div><img src="img/beginatletiek.png" alt="eerste schooldag"></div>
                 <p class="title">Begin Atletiek Carriëre</p>
-                <p>Dit was is het begin van een groot deel van mijn leven. Namelijk atletiek. Dit doe ik nu nog steeds</p>
+                <p>Dit was is het begin van een groot deel van mijn leven. Namelijk atletiek. Dit doe ik nu nog steeds
+                </p>
             </div>
             <div class="jaar left">2015</div>
             <div class="card left">
@@ -107,13 +115,15 @@
             <div class="card right">
                 <div><img src="img/2017.png" alt="pk hamme"></div>
                 <p class="title">Beste Jaar Atletiek</p>
-                <p>2017 was mijn beste jaar tot nu toe in de atletiek. Zo won in 3 provinciale titels en 1 vlaamse titel.</p>
+                <p>2017 was mijn beste jaar tot nu toe in de atletiek. Zo won in 3 provinciale titels en 1 vlaamse
+                    titel.</p>
             </div>
             <div class="jaar left">2018</div>
             <div class="card left">
-                <div><img src="img/cubiebot.png" alt="cubiebot"></div>
+                <div><img src="img/cubiebotself.png" alt="cubiebot"></div>
                 <p class="title">Eerste Stappen Binnen IT</p>
-                <p>In 2018 ben ik van school veranderd en heb ik besloten voor een carriëre in de informatica na te streven.</p>
+                <p>In 2018 ben ik van school veranderd en heb ik besloten voor een carriëre in de informatica na te
+                    streven.</p>
             </div>
             <div class="jaar right">2020</div>
             <div class="card right">
@@ -123,8 +133,93 @@
             </div>
         </div>
     </section>
-    <!-- <section>
+    <section>
         <h2 id="projects">Projecten</h2>
-    </section> -->
+        <article class="project">
+            <div class="image">
+                <img src="img/cubiebot.png" alt="cubiebot logo">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <h3>CubieBot</h3>
+                    <p>CubieBot was een project dat ik samen met mijn klasgenoor Robin Vermeir gemaakt heb.
+                        De CubieBot was een robot die instaat was om een Rubik's Cube op te lossen.
+                        We hebben dit project gemaakt als opdracht voor school. Dit was het eerste grote project dat ik
+                        ooit gemaakt heb. Robin en ik hebben dit geschreven aan de hand van Windows Forms in C#</p>
+                </div>
+                <div class="links">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-link"></i></td>
+                            <td><a href="https://www.cubiebot.biib.be" target="_blank" rel="noopener noreferrer"><i>cubiebot.biib.be</i></a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-brands fa-github"></i></td>
+                            <td>Niet beschikbaar (privé)</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </article>
+        <article class="project">
+            <div class="image">
+                <img src="img/orc.png" alt="oscar romerocollege logo">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <h3>Sportdag Inschrijvingen</h3>
+                    <p>Als project in het 6de jaar van het middelbaar hadden de leerkrachten 
+                        gedacht aan een inschrijvingssysteem voor de sportdag, omdat het vorige systeem niet meer voldeed aan hun vereiste. 
+                        Zo zijn we samen met 6ITN (mijn klas toen) begonnen aan een nieuw inschrijvingsprogramma voor deze dag. We hebben dit gemaakt in ASP.NET (C#)
+                        gebruikmakend van Entity Framework.
+                    </p>
+                </div>
+                <div class="links">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-link"></i></td>
+                            <td><a href="https://www.sportdag-orc.be" target="_blank" rel="noopener noreferrer">sportdag-orc.be</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-brands fa-github"></i></td>
+                            <td>Niet beschikbaar (privé)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+        <article class="project">
+            <div class="image">
+                <img src="img/waterput.png" alt="oscar romerocollege logo">
+            </div>
+            <div class="text-container">
+                <div class="text">
+                    <h3>Project Waterput</h3>
+                    <p>Mijn vader kwam met de vraag ofdat het mogelijk was om aan de hand van een Arduino de inhoud van onze waterput thuis te meten.
+                        Dit was het begin van het project. Zo begon ik hieraan te werken. De eerste versie die ik schreef was in PHP. Daarna ben ik overgeschakeld naar node.js voor de back-end en 
+                        React voor de Front-end.
+                    </p>
+                </div>
+                <div class="links">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-link"></i></td>
+                            <td><a href="https://siebevchogent.github.io/frontendweb-karine-2122-SiebeVCHoGent/" target="_blank" rel="noopener noreferrer">siebevchogent.github.io</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-brands fa-github"></i></td>
+                            <td><a href="https://github.com/SiebeVCHoGent/frontendweb-karine-2122-SiebeVCHoGent" target="_blank" rel="noopener noreferrer">Front-end</a></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-brands fa-github"></i></td>
+                            <td><a href="https://github.com/SiebeVCHoGent/webservices-pieter-2122-SiebeVCHoGent" target="_blank" rel="noopener noreferrer">Back-end</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
 </body>
+
 </html>
