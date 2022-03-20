@@ -21,6 +21,7 @@ h1{
 }
 
 h2{
+    margin-top: 50px;
     font-weight: 500;
 }
 
@@ -31,7 +32,6 @@ strong{
 .listblank{
     list-style: none;
     padding: 0;
-
 }
 
 .ablank{

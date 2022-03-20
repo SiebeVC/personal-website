@@ -1,3 +1,22 @@
+/*Links*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .divlink{
+    background-color: var(--blue);
+    color: white;
+    font-size: 30px;
+
+    width: 80px;
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+
 /* Information*/
 
 .information-container{
@@ -47,10 +66,11 @@
     display: flex;
     justify-content: center;
 }
+
 .line{
     position: absolute;
     border-left: 6px solid black;
-    height: 2550px;
+    height: 2500px;
     margin: 0 30px;
 }
 
@@ -99,6 +119,7 @@
     border-radius: 15px 15px 0 0;
     box-shadow: gray 0 2px 5px;
 }
+
 .timeline p {
     margin: 15px;
 }
