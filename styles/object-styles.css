@@ -1,0 +1,22 @@
+.information-container{
+    font-size: 18px;
+    text-align: left;
+
+    display: flex;
+    justify-content: center;
+}
+
+.vl{
+   border-left: 6px solid black;
+   height: 100px;
+   margin: 0 30px;
+}
+
+.information table{
+    width: 300px;
+}
+
+.information table tr td:first-child{
+    width: 50px;
+    text-align: center;
+}
