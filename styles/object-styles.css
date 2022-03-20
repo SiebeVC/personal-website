@@ -1,3 +1,5 @@
+/* Information*/
+
 .information-container{
     font-size: 18px;
     text-align: left;
@@ -8,8 +10,12 @@
 
 .vl{
    border-left: 6px solid black;
-   height: 100px;
+   height: 125px;
    margin: 0 30px;
+}
+
+.hl{
+    display: none;
 }
 
 .information table{
@@ -19,4 +25,85 @@
 .information table tr td:first-child{
     width: 50px;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .vl{
+        display: none;
+    }
+
+    .information-container{
+        flex-direction: column;
+    }
+
+    .col2{
+        margin-top: 10px;
+    }
+}
+
+
+/*Timeline*/
+.timeline-container{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    position: absolute;
+    border-left: 6px solid black;
+    height: 800px;
+    margin: 0 30px;
+}
+
+.timeline .jaar{
+    position: relative;
+    width: min-content;
+    font-size: 22px;
+    font-weight: 600;
+    left: 50%;
+    right: 50%;
+
+}
+
+.timeline .jaar.left{
+    transform: translate(-100px);
+}
+
+.timeline .jaar.right{
+    transform: translate(50px);
+}
+
+.timeline .card{
+    width: 400px;
+    min-height: 250px;
+    height: auto;
+    box-shadow: gray 10px 10px 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.timeline .card.left{
+    margin: 20px 0px;
+}
+
+.timeline .card.right{
+    margin: 20px 0 20px auto;
+}
+
+.timeline-cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline img{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+    box-shadow: gray 0 2px 5px;
+}
+.timeline p {
+    margin: 15px;
+}
+
+.timeline .title{
+    font-weight: 500;
+    font-size: 18px;
 }

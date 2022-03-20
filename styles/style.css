@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
 
+:root{
+ --blue: #26547c;
+ --beige: #e3e7d3;
+}
+
 html{
     font-family: 'Fredoka', sans-serif;
     scroll-behavior: smooth;
@@ -32,4 +37,8 @@ strong{
 .ablank{
     color: black;
     text-decoration: none;
+}
+
+section{
+    margin-bottom: 50px;
 }
