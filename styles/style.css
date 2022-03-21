@@ -5,9 +5,15 @@
  --beige: #e3e7d3;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 html{
     font-family: 'Fredoka', sans-serif;
     scroll-behavior: smooth;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 body{
@@ -15,7 +21,6 @@ body{
     margin: auto;
     text-align: center;
     padding: 30px;
-    margin: 0auto;
 }
 
 h1{
