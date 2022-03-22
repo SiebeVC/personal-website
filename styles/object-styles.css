@@ -65,12 +65,13 @@ nav .divlink{
 .timeline-container{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .line{
     position: absolute;
     border-left: 6px solid black;
-    height: 2400px;
+    height: 2800px;
     margin: 0 30px;
 }
 
@@ -103,6 +104,7 @@ nav .divlink{
     font-weight: 500;
     font-size: 18px;
 }
+
 
 @media only screen and (min-width: 920px) {
     .timeline .jaar{
@@ -144,7 +146,7 @@ nav .divlink{
 @media only screen and (max-width: 920px) {
     .line{
         left: calc(100vw*0.05);
-        height: 2150px;
+        height: 2700px;
     }
 
     .timeline .jaar{
@@ -232,5 +234,71 @@ nav .divlink{
 
     .project img{
         width: auto;
+    }
+}
+
+/* Programming */
+.langs{
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+
+.langs .icon-circle{
+    color: var(--blue);
+    border: 8px solid var(--blue);
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 150px;
+
+    margin: 20px;
+}
+
+.icon-p{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+p.icon-p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.p-text{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .langs .icon-circle{    
+        width: 100px;
+        height: 100px;
+    
+        margin: 20px;
+    }
+    
+    .icon-p{
+        font-size: 60px;
+    }
+
+    .icon-p{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    
+    p.icon-p{
+        font-size: 40px;
+        font-weight: bold;
     }
 }
