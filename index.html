@@ -20,11 +20,11 @@
         <a title="personalinfo" class="ablank" href="#personalinfo">
             <div class="divlink"><i class="fa-solid fa-info"></i></div>
         </a>
-        <a title="timeline" class="ablank" href="#timeline">
-            <div class="divlink"><i class="fa-solid fa-timeline"></i></div>
-        </a>
         <a title="projects" class="ablank" href="#work">
             <div class="divlink"><i class="fa-solid fa-briefcase"></i></div>
+        </a>
+        <a title="timeline" class="ablank" href="#timeline">
+            <div class="divlink"><i class="fa-solid fa-timeline"></i></div>
         </a>
     </nav>
     <section class="information">
@@ -45,8 +45,8 @@
                         <td><strong>29 augustus 2002</strong></td>
                     </tr>
                     <tr>
-                        <td><i class="fa-solid fa-hospital"></i></td>
-                        <td><strong>Asse</strong></td>
+                        <td><i class="fa-solid fa-school"></i></td>
+                        <td><strong>Gent</strong></td>
                     </tr>
                     <tr>
                         <td><i class="fa-solid fa-running"></i></td>
@@ -82,70 +82,6 @@
                         </td>
                     </tr>
                 </table>
-            </div>
-        </div>
-    </section>
-    <section class="timeline">
-        <h2 id="timeline">Tijdlijn</h2>
-        <div class="timeline-container">
-            <div class="line"></div>
-        </div>
-        <div class="timeline-cards">
-            <div class="jaar left">2002</div>
-            <div class="card card-img left">
-                <div><img src="img/geboorte.png" alt="geboorte"></div>
-                <p class="title">Geboorte</p>
-                <p>
-                    Op 29 augustus 2002 werd ik geboren. Sinds dan loop ik al rond op deze wereld.
-                </p>
-            </div>
-            <div class="jaar right">2004</div>
-            <div class="card card-img right">
-                <div><img src="img/eersteschooldag.png" alt="eerste schooldag"></div>
-                <p class="title">Eerste schooldag</p>
-                <p>In 2004 nam ik mijn eerste stapjes in het studentenleven.</p>
-            </div>
-            <div class="jaar left">2007</div>
-            <div class="card card-img left">
-                <div><img src="img/beginatletiek.png" alt="eerste schooldag"></div>
-                <p class="title">Begin Atletiek Carriëre</p>
-                <p>In 2007 ben ik begonnen met atletiek. Dit is vanaf dan een groot deel van mijn leven geworden. Ik doe
-                    dit namelijk nog steeds.</p>
-            </div>
-            <div class="jaar left">2008</div>
-            <div class="card card-noimg left">
-                <p class="title">Naar het lager</p>
-                <p>In 2008 was ik klaar om naar het lager onderwijs over te stappen. Ik zette mijn schoolcarriëre verder in Ter Dreef.</p>
-            </div>
-            <div class="jaar right">2014</div>
-            <div class="card card-noimg right">
-                <p class="title">Naar Het Middelbaar</p>
-                <p>In 2014 was het eerste deel van mijn schooltijd al gedaan. Het was tijd voor het middelbaar. Ik heb gekozen voor Sint-Donatus te Merchtem als school.</p>
-            </div>
-            <div class="jaar left">2015</div>
-            <div class="card card-img left">
-                <div><img src="img/pkhamme.png" alt="pk hamme"></div>
-                <p class="title">Eerste 'Grote' Overwinning</p>
-                <p>In 2015 werd ik provinciaal kampioen op de 80m.</p>
-            </div>
-            <div class="jaar right">2017</div>
-            <div class="card card-img right">
-                <div><img src="img/2017.png" alt="pk hamme"></div>
-                <p class="title">Beste Jaar Atletiek</p>
-                <p>In 2017 begon ik grote stappen te nemen binnen het lopen. Zo werd ik 3x provinciaal kampioen en 1x
-                    Vlaams</p>
-            </div>
-            <div class="jaar left">2018</div>
-            <div class="card left">
-                <div><img src="img/cubiebotself.png" alt="cubiebot"></div>
-                <p class="title">Eerste Stappen Binnen IT</p>
-                <p>In 2018 heb ik samen met mijn ouders besloten om van school te veranderen, dit was de start van mijn
-                    IT carriëre.</p>
-            </div>
-            <div class="jaar right">2020</div>
-            <div class="card card-noimg right">
-                <p class="title">Naar HOGENT</p>
-                <p>In 2020 heb ik besloten mijn studies verder te zetten aan HOGENT</p>
             </div>
         </div>
     </section>
@@ -252,7 +188,40 @@
                             <tr>
                                 <td><i class="fa-brands fa-github"></i></td>
                                 <td><a href="https://github.com/SiebeVC/CubieBot" target="_blank"
-                                        rel="noopener noreferrer">Alle code</a></td>
+                                        rel="noopener noreferrer">Code</a></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </article>
+            <article class="project">
+                <div class="image marg20">
+                    <img src="img/spotify.png" alt="spotify logo">
+                </div>
+                <div class="text-container">
+                    <div class="text">
+                        <h3>Spotify Playlist Updater</h3>
+                        <p>
+                            Aan de hand van dit project kan de gebruiker een online Spotify playlist updaten.
+                            Dit zorgt ervoor dat ik niet verantwoordelijk ben voor up-to-date houden van deze lijsten.
+                            <br>
+                            <br>
+                            De applicatie draait op een Heroku API, en is geschreven in FastAPI een modern, snel, web framework voor het bouwen van APIs in Python.
+                            De applicatie maakt ook gebruik van de Spotify API voor het updaten van de playlists en nog een paar externe APIs voor het ophalen van de data.
+                        </p>
+                    </div>
+                    <div class="links">
+                        <table>
+                            <tr>
+                                <td><i class="fa-solid fa-link"></i></td>
+                                <td><a href="https://spotify-playlist-updater-siebe.herokuapp.com/" target="_blank"
+                                        rel="noopener noreferrer"><i>Spotify Playlist Updater</i></a></td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-brands fa-github"></i></td>
+                                <td><a href="https://github.com/SiebeVC/Q-Scraper" target="_blank"
+                                        rel="noopener noreferrer">Code</a></td>
                             </tr>
                         </table>
                     </div>
@@ -329,6 +298,57 @@
                 </div>
         </section>
         </article>
+    </section>
+    <section class="timeline">
+        <h2 id="timeline">Tijdlijn</h2>
+        <div class="timeline-container">
+            <div class="line"></div>
+        </div>
+        <div class="timeline-cards">
+            <div class="jaar left">2002</div>
+            <div class="card card-img left">
+                <div><img src="img/geboorte.png" alt="geboorte"></div>
+                <p class="title">Geboorte</p>
+                <p>
+                    Op 29 augustus 2002 werd ik geboren. Sinds dan loop ik al rond op deze wereld.
+                </p>
+            </div>
+            <div class="jaar right">2004</div>
+            <div class="card card-img right">
+                <div><img src="img/eersteschooldag.png" alt="eerste schooldag"></div>
+                <p class="title">Eerste schooldag</p>
+                <p>In 2004 nam ik mijn eerste stapjes in het studentenleven.</p>
+            </div>
+            <div class="jaar left">2008</div>
+            <div class="card card-noimg left">
+                <p class="title">Naar het lager</p>
+                <p>In 2008 was ik klaar om naar het lager onderwijs over te stappen. Ik zette mijn schoolcarriëre verder
+                    in Ter Dreef.</p>
+            </div>
+            <div class="jaar right">2014</div>
+            <div class="card card-noimg right">
+                <p class="title">Naar Het Middelbaar</p>
+                <p>In 2014 was het eerste deel van mijn schooltijd al gedaan. Het was tijd voor het middelbaar. Ik heb
+                    gekozen voor Sint-Donatus te Merchtem als school.</p>
+            </div>
+            <div class="jaar left">2018</div>
+            <div class="card left">
+                <div><img src="img/cubiebotself.png" alt="cubiebot"></div>
+                <p class="title">Eerste Stappen Binnen IT</p>
+                <p>In 2018 heb ik samen met mijn ouders besloten om van school te veranderen, ik heb toen gekozen voor het Òscar Roméro College te Dendermonde. Dit was de start van mijn
+                    IT carriëre.</p>
+            </div>
+            <div class="jaar right">2020</div>
+            <div class="card card-noimg right">
+                <p class="title">Naar HOGENT</p>
+                <p>In 2020 heb ik besloten mijn studies verder te zetten in de Toegepaste Informatica aan HOGENT.</p>
+            </div>
+            <div class="jaar left">......</div>
+            <div class="card card-noimg left">
+                <p class="title">De Toekomst</p>
+                <p>Wat de toekomst nog brengt zullen we nog moeten zijn. Indien jij deel wilt zijn van mijn toekomst stuur me dan gerust een mailtje.</p>
+            </div>
+        </div>
     </section>
 </body>
 

@@ -71,7 +71,7 @@ nav .divlink{
 .line{
     position: absolute;
     border-left: 6px solid black;
-    height: 2800px;
+    height: 1900px;
     margin: 0 30px;
 }
 
@@ -146,7 +146,7 @@ nav .divlink{
 @media only screen and (max-width: 920px) {
     .line{
         left: calc(100vw*0.05);
-        height: 2700px;
+        height: 2000px;
     }
 
     .timeline .jaar{
@@ -234,6 +234,7 @@ nav .divlink{
 
     .project img{
         width: auto;
+        max-width: 50%;
     }
 }
 
